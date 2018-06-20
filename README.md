@@ -33,3 +33,12 @@ Changes the different overlays possible.
 
 # The goal
 
+http://mirrorontheether.com/wp-content/uploads/2018/06/instalaltie.jpg
+
+Here is an render of how the installation will look. In front: the monitor connected to the Raspberry Pi 3B (with camera and code seen here), in the back two displays showing the image you just took but with an overlay making it seem like the images are for sale on some stock foto website. 
+
+
+# The problem
+
+Right now I am aware that I can't have the Pi zero's run a script using the 'latest.gif' without that blocking the Pi 3B to send any newly taken images. Right now it uses SCP to send those files, but maybe I need a different way to send those images so that it won't cause a problem to send in new ones? 
+Because the goal is that if you take a picture on the pi 3B, that image also appears on the pi zero's in the back. 
